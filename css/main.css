@@ -1,0 +1,186 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html {
+    background: linear-gradient(#036980, #04BFBF) no-repeat;
+    padding: 20px;
+    min-height: 100%;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: #F2E4D8;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.title h2 {
+    font-size: 16px;
+    color: #F2E4D8;
+    margin-top: 5px;
+    padding-top: 0px;
+    text-align: right;
+}
+
+.app-store-btn {
+    text-align: right;
+    float: right;
+}
+
+.app-store-btn img {
+    width: 200px;
+}
+
+
+.image-container img {
+    width: 50%;
+}
+
+.terms-container a {
+    color: #F2E4D8;
+    font-size: 14px;
+    text-align: right;
+    display: block;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+    .title h2, .title h1 {
+        text-align: center;
+    }
+    .app-store-btn {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .app-store-btn img {
+        text-align: center;
+    }
+
+
+    .image-container img {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+
+    }
+
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
